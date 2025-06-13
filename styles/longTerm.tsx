@@ -9,7 +9,7 @@ const styles = StyleSheet.create({
   },
   header: {
     paddingHorizontal: 20,
-    marginBottom: 30,
+    marginBottom: 31,
     alignItems: 'center'
   },
   welcomeText: {
