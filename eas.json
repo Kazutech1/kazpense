@@ -6,13 +6,19 @@
   "build": {
     "development": {
       "developmentClient": true,
-      "distribution": "internal"
+      "distribution": "internal",
+      "node": "18",
+      "npm": true
     },
     "preview": {
-      "distribution": "internal"
+      "distribution": "internal",
+      "node": "18",
+      "npm": true
     },
     "production": {
-      "autoIncrement": true
+      "autoIncrement": true,
+      "node": "18",
+      "npm": true
     }
   },
   "submit": {
